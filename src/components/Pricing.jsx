@@ -16,7 +16,7 @@ const Pricing = () => {
     data-aos='fade-up'
     data-aos-offset='200'
     data-aos-delay='200'>
-      <img src={icon} />
+      <img src={icon} alt='' />
       <h2 className='h2' >{title} <span className='text-red-500'>.</span></h2>
     </div>
     {/* plan list */}
