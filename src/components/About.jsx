@@ -35,7 +35,7 @@ const {title, subtitle1, subtitle2,icon,link} = about;
      <div
       data-aos= 'fade-up'
       data-aos-delay='400'>
-      <a className='link flex items-center gap-x-4 hover:gap-x-6 transition-all' href="#">{link}
+      <a className='link flex items-center gap-x-4 hover:gap-x-6 transition-all' href="/">{link}
       <IoIosArrowDroprightCircle className='text-2xl' />
       </a>
      </div>
