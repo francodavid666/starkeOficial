@@ -29,7 +29,7 @@ const Header = () => {
   })
 
   //destructuramos los datoa del header
-  const {btnLoginText,btnSignupText} = header;
+  {/*const {btnLoginText,btnSignupText} = header;*/}
   
 
   
@@ -42,10 +42,10 @@ const Header = () => {
       {/*nav initially hidden - show on desktop*/}
       <Nav/>
       {/**btns - initially hidden -show on desktop */}
-      <div className='hidden lg:flex space-x-4'>
+      {/*<div className='hidden lg:flex space-x-4'>
         <button className='btn btn-sm text-white hover:text-red-500 transition' >{btnLoginText}</button>
         <button className='btn btn-sm bg-red-500' >{btnSignupText}</button>
-      </div>
+      </div>*/}
       {/*nav menu btn - hide on */}
     <div onClick={()=>setNavMobile(!navMobile)} className='lg:hidden absolute right-4'>
       {console.log(navMobile)}
