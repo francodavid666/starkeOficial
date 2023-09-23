@@ -29,14 +29,14 @@ const Header = () => {
   })
 
   //destructuramos los datoa del header
-  const {logo,btnLoginText,btnSignupText} = header;
+  const {btnLoginText,btnSignupText} = header;
   
 
   
   return (
     <header className={`${isActive ?'bg-neutral-500 py-[16px]':'bg-transparent py-[20px]'} fixed max-w-[1440px] z-30 left-0 right-0 mx-auto flex justify-between items-center px-[20px] lg:px-[80px] transition-all duration-300`}>
       {/*logo */}
-    <a href="#">
+    <a href="/">
       <img className='h-[60px]' src={logoStarke} alt="" />
       </a>
       {/*nav initially hidden - show on desktop*/}
