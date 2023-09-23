@@ -20,7 +20,7 @@ export const PlanList = ({plans}) => {
           data-aos-delay='200'
           >
 
-            <div className={`${currentIndex == index ? 'bg-neutral-500 text-white':'bg-neutral-400/10 text-neutral-500'} flex justify-center items-center py-[40px] px-[30px] lg:min-h-[550px] transition duration-300`}>
+            <div className={`${currentIndex === index ? 'bg-neutral-500 text-white':'bg-neutral-400/10 text-neutral-500'} flex justify-center items-center py-[40px] px-[30px] lg:min-h-[550px] transition duration-300`}>
              
              <div className='flex flex-row lg:flex-col gap-x-8 gap-y-8 lg:gap-y-0 items-center'>
                {/* name & price wrapper */}
