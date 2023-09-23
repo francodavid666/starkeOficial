@@ -36,7 +36,7 @@ export const nav = [
 ];
 
 export const banner = {
-  titlePart1: 'Obter la mejor version de ti',
+  titlePart1: 'Obten la mejor version de ti',
   titlePart2: '– Starke Fitness.',
   subtitle:
     'Ofrecemos un esáco espacio divertido, amigable y seguro.',
