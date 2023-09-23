@@ -14,7 +14,7 @@ const Footer = () => {
     dat-aos-delay='200'
     >
       {/* logo */} 
-      <a href="#">
+      <a href="/">
         <img className='h-[30px]' src={logo} alt="" />
       </a>
       {/* copyright text */}
