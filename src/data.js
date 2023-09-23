@@ -1,7 +1,7 @@
 // images
 import Logo from '../src/assets/img/header/logo.svg';
-import ResistanceImg from '../src/assets/img/workouts/resistance.png';
-import BoxingImg from '../src/assets/img/workouts/boxing.png';
+{/*import ResistanceImg from '../src/assets/img/workouts/resistance.png';
+import BoxingImg from '../src/assets/img/workouts/boxing.png';*/}
 import BodyPumpImg from '../src/assets/img/workouts/body-pump.png';
 import YogaImg from '../src/assets/img/workouts/yoga.png';
 import FullBodyImg from '../src/assets/img/workouts/full-body.png';
