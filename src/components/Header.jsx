@@ -12,7 +12,7 @@ import {Nav} from './Nav';
 import {RiMenu4Fill, RiCloseFill} from 'react-icons/ri'
 
 //importamos logo starke
-import logoStarke from '../assets/img/starke/logo.png'
+import logoStarke from '../assets/img/starke/centro-de-entrenamiento.png'
 
 const Header = () => {
   //estado del header

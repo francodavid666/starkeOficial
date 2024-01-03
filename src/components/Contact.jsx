@@ -65,7 +65,7 @@ const Contact = () => {
   };
 
   return (
-    <div
+    <div name="contacto"
       className={`bg-neutral-500 xl:mt-12 flex justify-contenr xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div

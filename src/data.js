@@ -9,7 +9,7 @@ import CommunityImg1 from '../src/assets/img/community/img1.png';
 import CommunityImg2 from '../src/assets/img/community/img2.png';
 import CommunityImg3 from '../src/assets/img/community/img3.png';
 import CommunityImg4 from '../src/assets/img/community/img4.png';
-import JoinImg from '../src/assets/img/join/woman.png';
+import JoinImg from '../src/assets/img/banner/bannerJoin.jpg';
 // icons
 import UsersIcn from '../src/assets/img/about/icons/users-icn.svg';
 import CalendarIcn from '../src/assets/img/workouts/icons/calendar.svg';
@@ -18,21 +18,21 @@ import CommunityIcn from '../src/assets/img/community/icons/community-icn.svg';
 import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg';
 import spinnig from '../src/assets/img/starke/spinning.jpg'
 import funcional from '../src/assets/img/starke/funcional.jpg'
-import logoStarke from '../src/assets/img/starke/logo.png'
+import logoStarke from '../src/assets/img/starke/centro-de-entrenamiento.png'
 
 export const header = {
   logo: Logo,
-  btnLoginText: 'Log in',
-  btnSignupText: 'Sign Up',
+  //btnLoginText: 'Log in',
+ // btnSignupText: 'Sign Up',
 };
 
 export const nav = [
-  { name: 'Nosotros', href: '/' },
-  { name: 'Disciplinas', href: '/' },
-  { name: 'Precios', href: '/' },
-  { name: 'Profesores', href: '/' },
-  { name: 'Preguntas', href: '/' },
-  { name: 'Contacto', href: '/' },
+  { name: 'Nosotros', href: 'nosotros' },
+  { name: 'Servicios', href: 'disciplinas' },
+  { name: 'Precios', href: 'precios' },
+  { name: 'Profesores', href: 'profesores' },
+  { name: 'Preguntas', href: 'preguntas' },
+  { name: 'Contacto', href: 'contacto' },
 ];
 
 export const banner = {
@@ -56,36 +56,29 @@ export const about = {
 
 export const workouts = {
   icon: CalendarIcn,
-  title: 'Entrenamientos',
+  title: 'Servicios',
   programs: [
     {
       image: spinnig,
-      name: 'Spinning',
+      name: 'Entrenamiento Personalizado',
     },
     {
       image: funcional,
       name: 'Funcional',
     },
-    {
-      image: BodyPumpImg,
-      name: 'Body Pump',
-    },
+
     {
       image: YogaImg,
       name: 'Yoga',
     },
     {
-      image: FullBodyImg,
-      name: 'Full Body',
+      image: YogaImg,
+      name: 'Consultas Privadas',
     },
-    {
-      image: FitnessImg,
-      name: 'Fitness',
-    },
-    {
-      image: BattleRopeImg,
-      name: 'Battle Rope',
-    },
+  
+  
+ 
+   
   ],
 };
 
@@ -166,31 +159,27 @@ export const faq = {
   title: 'Preguntas',
   accordions: [
     {
-      question: '¿Cómo puedo reservar una clase de entrenamiento?',
+      question: '¿Que es el entrenamiento funcional?',
       answer:
-        'Podes agendar una clase contactando por email o viniendo a nuestro gym.',
+        'El entrenamiento funcional se trata de ejercicios que imitan movimientos reales, ayudando a fortalecer el cuerpo para tareas cotidianas y deportes, mientras se evitan lesiones',
     },
     {
-      question: '¿Puedo pagar en efectivo mis clases?',
+      question: '¿Qué es el entrenamiento personalizado?',
       answer:
-        'Podes abonar en efectivo y con mercado pago.',
+        'El entrenamiento personalizado con programas adaptados individualmente para fortalecer, mejorar la resistencia, aumentar la flexibilidad y alcanzar metas específicas de bienestar físico y mental, según las necesidades y objetivos de cada persona.',
     },
     {
-      question: '¿Qué edad debo tener para unirme?',
+      question: '¿Qué es el yoga?',
       answer:
-        'Podes venir a entrenar teniendo la edad que tengas, si sos menor tenes que presentar el permiso de tu supervisor.',
+        'El yoga es una práctica milenaria que combina posturas físicas, respiración y meditación para promover el equilibrio entre cuerpo y mente, mejorando la flexibilidad, fuerza y bienestar general.',
     },
     {
-      question: '¿Hay lockers?',
+      question: 'Objetivos de entrenamiento',
       answer:
-        'Disponemos de lockers para que puedas guardar tus pertenencias.',
+        'El entrenamiento en un gimnasio busca fortalecer la fuerza, mejorar la resistencia, aumentar la flexibilidad y promover el bienestar físico y mental, adaptándose a las metas individuales de cada cliente.',
     },
  
-    {
-      question: '¿Hay agua disponible en el gimnasio?',
-      answer:
-        'En nuetro gym vendemos bebidas para mantenerse hidratado.',
-    },
+
   ],
 };
 

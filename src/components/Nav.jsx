@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 //import data
 import { nav } from '../data'
@@ -10,7 +11,8 @@ export const Nav =()=> {
       {nav.map((item,index)=>{
         return (
           <li key={index}>
-            <a className='hover:text-red-500 trasnsition' href={item.href}>{item.name}</a>
+            <Link className='hover:text-red-500 trasnsition' to={item.href} spy={true} smooth={true} offset={10}
+            duration={500}  >{item.name}</Link>
         </li>
         )
         

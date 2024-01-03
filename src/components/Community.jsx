@@ -12,7 +12,7 @@ const Community = () => {
 
 
   return <section
-  className='section relative'>
+  className='section relative' name='profesores'>
     <div className="container mx-auto">
       <div className='flex'>
       <div className='section-title-group m ax-w-[240px] px-4 lg:px-0 lg:ml-0 mx-auto'

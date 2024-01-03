@@ -23,7 +23,11 @@ const {titlePart1,titlePart2,subtitle,textBtn} = banner;
           <p className='max-w-[415px] text-body-md lg:text-body-lg mb-8' 
           data-aos = 'fade-down' data-aos-delay='600'>{subtitle}</p>
           <button className='btn btn-sm lg:btn-lg btn-secondary hover:text-red-500'
-          data-aos = 'fade-down' data-aos-delay='700'>{textBtn}</button>
+          data-aos = 'fade-down' data-aos-delay='700'>
+             <a href="https://api.whatsapp.com/send?phone=+541123709305" target='_blank'>
+              {textBtn}
+         </a>
+         </button>
         </div>
          {/*imagen */}
   <div className='bg-blue-300 wf-full h-full bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1'

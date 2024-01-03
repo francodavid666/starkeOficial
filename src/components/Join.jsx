@@ -19,7 +19,7 @@ const Join = () => {
             data-aos-offset='100'
             data-aos-delay='100'
             >
-              <img src={image} alt="" />
+              <img src={image} alt="clases de funcional" />
             </div>
             {/* text*/}
             <div className='max-w-[350px] lg:max-w-[492px] ml-[30px] '
@@ -31,7 +31,11 @@ const Join = () => {
                 Quieres tener tu cuerpo soñado  <span className='text-red-500'>&</span> divertirte? 
                 </h2>
                 <p className='text-body-sm md:text-body-md text-white mb-4 lb:mb-6 max-w-[470px] lg:max-w-[492px] ' > {subtitle} </p>
-                <button className='btn btn-secondary btn-lg' > {btnText} </button>
+                <button className='btn btn-secondary btn-lg' > 
+                <a href="https://api.whatsapp.com/send?phone=+541123709305" target='_blank'>
+                {btnText} 
+         </a>
+                </button>
             </div>
           </div>
 

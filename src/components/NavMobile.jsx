@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll'
 
 //import data
 
@@ -12,9 +13,10 @@ export const NavMobile = ({navMobile}) => {
   {nav.map((item,index)=>{
     return(
       <li key={index}>
-        <a  className='text-red-500 text-body-md' href={item.href}>
+        <Link  className='text-red-500 text-body-md' to={item.href} spy={true} smooth={true} offset={10}
+            duration={500} >
         {item.name}
-        </a>
+        </Link>
    
     </li>
     )
@@ -22,10 +24,10 @@ export const NavMobile = ({navMobile}) => {
   })}
 </ul>
 {/**buttons */}
-<div className='-mt-44 flex justify-center gap-x-8 '> 
+{/*<div className='-mt-44 flex justify-center gap-x-8 '> 
   <button className='btn btn-lg text-white'>Log in</button>
   <button className='btn btn-lg text-red-500' >Sing up</button>
-</div>
+</div>*/}
 
   </nav>;
 };

@@ -11,7 +11,7 @@ const About = () => {
 const {title, subtitle1, subtitle2,icon,link} = about;
 
   return (
-    <section className=' py-[80px] md:py-[110px] lg:pt-[140px] lb:pb-[180px]'>
+    <section  name='nosotros' className=' py-[80px] md:py-[110px] lg:pt-[140px] lb:pb-[180px]'>
     <div className='container mx-auto px-[20px] lg:px-[135px]'
     data-aos= 'fade-up'
      data-aos-delay='100'>
